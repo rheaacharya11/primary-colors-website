@@ -123,7 +123,7 @@ a:active { text-decoration: none; }
     top: 23.5%;
     overflow: auto;
     font-family: 'Didact Gothic', sans-serif; /* Match the body's font */
-    color: #563D25; /* Match the body's font color */
+    color: #743089; /* Match the body's font color */
 }
 
 #sidebar ul {
@@ -136,7 +136,7 @@ a:active { text-decoration: none; }
 }
 
 #sidebar ul li a {
-    color: #563D25; /* Match the link color */
+    color: #743089; /* Match the link color */
     text-decoration: none;
 }
 
