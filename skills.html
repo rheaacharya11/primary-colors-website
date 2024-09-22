@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <link rel="icon" href="images/kh.png">
+  <title>rhea acharya</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div id="sidebar">
+      <ul>
+        <li class="menu">
+          <a href="./index.html" class="menu-btn"><i class="far fa-folder"></i> home</a>
+        </li>
+        <li class="menu">
+          <a href="./reading.html" class="menu-btn"><i class="far fa-folder"></i> reading</a>
+        </li>
+
+        <li class="menu">
+          <a href="./classes.html" class="menu-btn"><i class="far fa-folder"></i> classes</a>
+        </li>
+        <li class="menu">
+          <a href="./projects.html" class="menu-btn"><i class="far fa-folder"></i> projects</a>
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+      
+        <div class="big-name">
+          <h1><b>rhea acharya</b></h1>
+          
+        </div>
+        <p class="p-padding"> <b> senior @ harvard studying <a href="./classes.html">applied math</a> + <a href="https://github.com/rheaacharya11">cs</a> </a> </b> </p>
+
+      <br>
+        <div class="p-body">
+            <h3><b>my technical skills</b></h3>
+            <hr style="border: 0; height: 1px; background-color: #563D25; margin: 20px 0;">
+            <br>
+            <p><b> Coding Languages & Libraries </b></p>
+            <p> Python, OCaml, C, C++, HTML, JavaScript, SQL, R, React, NumPy, Pandas, TensorFlow, PyTorch, Scikit, Seaborn </p>
+            
+            <br>
+
+            <p><b> Design Tools </b></p>
+            <p> Adobe Creative Suite (Illustrator, InDesign, Photoshop, AfterEffects), Figma, Tableau, Procreate, Canva, Webflow </p>
+            <p><a href="https://crheativity.weebly.com/">Check out my old design + writing portfolio here</a> </p>
+            <br>
+
+            <h3><b>my interests</b></h3>
+            <p>academic: math & cs and english & philosophy! </p>
+            <p>career: leveraging technology for good by creating meaningful & safe products that make humanity happier, healthier & more equitable </p>
+            <br
+            <h3><b>my top 3 values</b></h3>
+            <p>resilience, agency, and empathy</p>
+
+
+        </div>
+    </div>
+  </div>
+  <!-- <script src="assets/js/scripts.js"></script> -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Handle menu buttons
+        const menuBtns = document.querySelectorAll('.menu-btn');
+        
+        menuBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const menuContent = this.nextElementSibling;
+                if (menuContent) {
+                    menuContent.style.display = menuContent.style.display === 'block' ? 'none' : 'block';
+                }
+                
+                const menu = this.closest('.menu');
+                if (menu) {
+                    menu.classList.toggle('toggled');
+                }
+            });
+        });
+    });
+  </script>
+</body>
+</html>
