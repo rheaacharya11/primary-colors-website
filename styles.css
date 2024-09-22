@@ -1,0 +1,357 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+
+body {
+    background-color: #F9F5F1;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin-top: 1.5%;
+    padding-left: 5%; /* Increased from 2% */
+    padding-right: 5%; /* Increased from 2% */
+}
+
+.border-div {
+    background-color: #F9F5F1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-top: auto;
+    padding-top: 0px;
+    padding-bottom: 100px;
+    /* padding: 10px 20px 20px;  */
+    max-width: 100%; /* Ensure it doesn't exceed the content width */
+}
+
+h1 {
+    font-family: "Source Sans Pro", sans-serif;
+	color: #563D25;
+    font-weight: 200;
+    font-size: 5.5rem;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-family: "Source Sans Pro", sans-serif;
+	color: #563D25;
+    font-weight: 200;
+    font-size: 1.9rem;
+    line-height: 60px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+p {
+    font-family: 'Didact Gothic', sans-serif;
+	color: #563D25;
+    font-weight: 100;
+    font-size: 1.2rem;
+    font-style: bold;
+    margin: 5px;
+}
+
+.p-padding {
+    padding-bottom: 15px;
+}
+
+.p-body {
+    padding-top: 5px;
+}
+
+.big-name {
+    display: flex;
+}
+
+p.counter-text {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #563D25;
+    margin-bottom: 1px;
+}
+
+a.counter {
+    all: initial;
+    padding-top: 10px;
+    margin-left: 0px;
+    padding-bottom: 60px;
+}
+
+div.footer {
+    margin-top: 10px;
+}
+
+a {
+    color: #B68354;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+.slp {
+    background-color: #F9F5F1;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+#sidebar {
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+    width: 15%; /* Reduced from 20% */
+    max-width: 150px; /* Reduced from 200px */
+    margin-right: 3%; /* Increased from 2% */
+    background-color: transparent; /* Match the body's background color */
+    left: 10%; /* Adjust this value to move the sidebar */
+    top: 23.5%;
+    overflow: auto;
+    font-family: 'Didact Gothic', sans-serif; /* Match the body's font */
+    color: #563D25; /* Match the body's font color */
+}
+
+#sidebar ul {
+    padding: 20px;
+    list-style-type: none;
+}
+
+#sidebar ul li {
+    margin: 10px 0;
+}
+
+#sidebar ul li a {
+    color: #563D25; /* Match the link color */
+    text-decoration: none;
+}
+
+#sidebar ul li a:link,
+#sidebar ul li a:visited,
+#sidebar ul li a:hover,
+#sidebar ul li a:active {
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Menu Content (Hidden by Default) */
+.menu-content {
+    display: none;
+}
+
+/* Links inside the menu */
+.menu-content a {
+    display: block;
+    color: #563D25;
+    text-decoration: none;
+}
+
+/* Change color of menu links on hover */
+.menu-content a:hover {
+    background-color: transparent; /* Remove the background color */
+    color: #B68354;
+}
+
+/* Show the menu content when the menu is toggled */
+.menu.toggled .menu-content {
+    max-height: 200px; /* Adjust this value as needed */
+}
+
+.menu-btn i {
+    padding-right: 7px;
+    padding-bottom: 7px;
+    margin-left: 3px; /* Adjust this value to move the icon to the right */
+  }
+
+.branch {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .branch::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    height: 150%;
+    width: 1px;
+    background: black;
+  }
+  
+  .branch::after {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    height: 1px;
+    width: 10px;
+    background: black;
+  }
+
+  .branch-end {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+  }
+
+  .branch-end::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 0;
+    height: 55%; /* Change this to 50% to make the vertical line only half as tall */
+    width: 1px;
+    background: black;
+  }
+  
+  .branch-end::after {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    height: 1px;
+    width: 10px;
+    background: black;
+  }
+
+  .container {
+    display: flex;
+    max-width: 90%; /* Added to limit overall width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px 10%; /* Added horizontal padding */
+    margin-left: 0%; /* Reduced from 7% */
+  }
+  
+  #sidebar {
+    width: 15%; /* Reduced from 20% */
+    max-width: 150px; /* Reduced from 200px */
+    margin-right: 3%; /* Increased from 2% */
+  }
+  
+  .content {
+    flex: 1;
+    max-width: 75%; /* Adjusted from 78% */
+    padding-right: 5%; /* Added right padding */
+  }
+  
+  .border-div {
+    /* border: 1px solid #000; */
+    padding: 40px;
+  }
+  
+  /* You may need to adjust or remove any existing positioning for #sidebar */
+
+html, body {
+    height: 80%;
+    margin: 0px;
+    padding: 0;
+}
+
+/* FOR THE PROJECTS PAGE */
+
+.project-post {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #563D25;
+}
+
+.project-title {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #563D25;
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.project-date {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #563D25;
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #563D25;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.project-links {
+    display: flex;
+    gap: 10px;
+    margin-left: 5px;
+}
+.project-link {
+    font-family: 'Didact Gothic', sans-serif;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #563D25;
+    background-color: #d2beab;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: inline-block;
+}
+
+.project-link:hover {
+    background-color: #563D25;
+    color: #B68354;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin-left: 0;
+        padding: 20px 2%;
+    }
+
+    #sidebar {
+        width: 100%;
+        max-width: none;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        max-width: 100%;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
