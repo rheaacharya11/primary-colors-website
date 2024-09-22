@@ -1,1 +1,95 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>rhea acharya</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+   <div class="container">
+    <div id="sidebar">
+      <ul>
+        <li class="menu">
+          <a href="./index.html" class="menu-btn"><i class="far fa-folder"></i> home</a>
+        </li>
+        <li class="menu">
+          <a href="./reading.html" class="menu-btn"><i class="far fa-folder"></i> reading</a>
+        </li>
+
+        <li class="menu">
+          <a href="./classes.html" class="menu-btn"><i class="far fa-folder"></i> classes</a>
+        </li>
+        <li class="menu">
+          <a href="javascript:void(0)" class="menu-btn"><i class="far fa-folder"></i> other</a>
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="big-name">
+        <h1><b>rhea acharya</b></h1>
+      </div>
+      <p class="p-padding"><b>senior @ harvard studying <a href="https://github.com/rheaacharya11">cs</a> + math</a></b></p>
+      
+        <div class="p-body">
+            <h3><b>my projects</b></h3>
+            <hr style="border: 0; height: 1px; background-color: #563D25; margin: 20px 0;">
+            <br>
+            <p><b> Fake It Till You Make It </b></p>
+            <p>Researching the effects of under- and over-confidence in early education on later life outcomes across gender lines </p>
+            <p><i> Under Prof. Claudia Goldin & Prof. Larry Katz </p>
+            <p><a href="https://github.com/rheaacharya11">Paper Here</a> </p>
+            <br>
+
+           <p><b> Fairer Null Models for Gerrymandering </b></p>
+            <p>Researching the effects of under- and over-confidence in early education on later life outcomes across gender lines </p>
+            <p><i> Under Prof. Claudia Goldin & Prof. Larry Katz </p>
+            <p><a href="https://github.com/rheaacharya11">Paper Here</a> </p>
+            <br>
+
+             <p><b> UberStable: Improving Driver Equity in the Ride-Sharing Matching Algorithm  </b></p>
+            <p>Researching the effects of under- and over-confidence in early education on later life outcomes across gender lines </p>
+            <p><i> Under Prof. Claudia Goldin & Prof. Larry Katz </p>
+            <p><a href="https://github.com/rheaacharya11">Paper Here</a> </p>
+            <br>
+
+            <p><b> Improving Driver Equity in the Ride-Sharing Matching Algorithm  </b></p>
+            <p>Researching the effects of under- and over-confidence in early education on later life outcomes across gender lines </p>
+            <p><i> Under Prof. Claudia Goldin & Prof. Larry Katz </p>
+            <p><a href="https://github.com/rheaacharya11">Paper Here</a> </p>
+            <br>
+
+            <p><b> Improving Driver Equity in the Ride-Sharing Matching Algorithm  </b></p>
+            <p>Researching the effects of under- and over-confidence in early education on later life outcomes across gender lines </p>
+            <p><i> Under Prof. Claudia Goldin & Prof. Larry Katz </p>
+            <p><a href="https://github.com/rheaacharya11">Paper Here</a> </p>
+            <br>
+          
+        </div>
+    </div>
+  </div>
+  <!-- <script src="assets/js/scripts.js"></script> -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Handle menu buttons
+        const menuBtns = document.querySelectorAll('.menu-btn');
+        
+        menuBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const menuContent = this.nextElementSibling;
+                if (menuContent) {
+                    menuContent.style.display = menuContent.style.display === 'block' ? 'none' : 'block';
+                }
+                
+                const menu = this.closest('.menu');
+                if (menu) {
+                    menu.classList.toggle('toggled');
+                }
+            });
+        });
+    });
+  </script>
+</body>
+</html>
