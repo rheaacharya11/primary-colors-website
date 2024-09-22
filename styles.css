@@ -1,39 +1,31 @@
-@import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+/* Import Fonts and Font Awesome */
+@import url('fontawesome-all.min.css');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600');
 
+/* Global Reset and Box Sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body Styles */
 body {
     background-color: #FCFBF4;
+    font-family: 'Didact Gothic', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 1.5%;
-    padding-left: 5%; /* Increased from 2% */
-    padding-right: 5%; /* Increased from 2% */
+    padding: 0 5%;
+    color: #00406c;
 }
 
-.border-div {
-    background-color: #FCFBF4;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    margin-top: auto;
-    padding-top: 0px;
-    padding-bottom: 100px;
-    /* padding: 10px 20px 20px;  */
-    max-width: 100%; /* Ensure it doesn't exceed the content width */
-}
-
+/* Typography Styles */
 h1 {
     font-family: "Source Sans Pro", sans-serif;
-	color: #00406c;
+    color: #00406c;
     font-weight: 200;
     font-size: 5.5rem;
     line-height: 60px;
@@ -42,88 +34,61 @@ h1 {
 
 h3 {
     font-family: "Source Sans Pro", sans-serif;
-	color: #00406c;
+    color: #00406c;
     font-weight: 200;
     font-size: 1.9rem;
     line-height: 60px;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin: 5px 0;
 }
 
 p {
     font-family: 'Didact Gothic', sans-serif;
-	color: #00406c;
-    font-weight: 100;
-    font-size: 1.2rem;
-    font-style: bold;
-    margin: 5px;
-}
-
-.p-padding {
-    padding-bottom: 15px;
-}
-
-.p-body {
-    padding-top: 5px;
-}
-
-.big-name {
-    display: flex;
-}
-
-p.counter-text {
-    font-family: 'Didact Gothic', sans-serif;
-    font-size: 12px;
-    font-weight: 500;
     color: #00406c;
-    margin-bottom: 1px;
-}
-
-a.counter {
-    all: initial;
-    padding-top: 10px;
-    margin-left: 0px;
-    padding-bottom: 60px;
-}
-
-div.footer {
-    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin: 5px 0;
 }
 
 a {
     color: #743089;
+    text-decoration: none;
 }
 
-a:link { text-decoration: none; }
+a:hover {
+    color: #71a5de;
+}
 
-a:visited { text-decoration: none; }
-
-a:hover { text-decoration: none; }
-
-a:active { text-decoration: none; }
-
-.slp {
+/* Border Container */
+.border-div {
     background-color: #FCFBF4;
-    margin-bottom: 10%;
+    padding: 40px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
+/* Layout Container */
+.container {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px 10%;
+}
+
+/* Sidebar Styles */
 #sidebar {
     position: sticky;
     top: 20px;
     align-self: flex-start;
     max-height: calc(100vh - 40px);
     overflow-y: auto;
-    width: 15%; /* Reduced from 20% */
-    max-width: 150px; /* Reduced from 200px */
-    margin-right: 3%; /* Increased from 2% */
-    background-color: transparent; /* Match the body's background color */
-    left: 10%; /* Adjust this value to move the sidebar */
-    top: 23.5%;
-    overflow: auto;
-    font-family: 'Didact Gothic', sans-serif; /* Match the body's font */
-    color: #743089; /* Match the body's font color */
+    width: 15%;
+    max-width: 150px;
+    margin-right: 3%;
+    background-color: transparent;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #743089;
 }
 
 #sidebar ul {
@@ -136,161 +101,41 @@ a:active { text-decoration: none; }
 }
 
 #sidebar ul li a {
-    color: #743089; /* Match the link color */
-    text-decoration: none;
+    color: #743089;
 }
 
-#sidebar ul li a:link,
-#sidebar ul li a:visited,
-#sidebar ul li a:hover,
-#sidebar ul li a:active {
-    text-decoration: none; /* Remove underline from links */
-}
-
-/* Menu Content (Hidden by Default) */
-.menu-content {
-    display: none;
-}
-
-/* Links inside the menu */
-.menu-content a {
-    display: block;
-    color: #00406c;
-    text-decoration: none;
-}
-
-/* Change color of menu links on hover */
-.menu-content a:hover {
-    background-color: transparent; /* Remove the background color */
-    color: #71a5de;
-}
-
-/* Show the menu content when the menu is toggled */
-.menu.toggled .menu-content {
-    max-height: 200px; /* Adjust this value as needed */
-}
-
-.menu-btn i {
-    padding-right: 7px;
-    padding-bottom: 7px;
-    margin-left: 3px; /* Adjust this value to move the icon to the right */
-  }
-
-.branch {
-    position: relative;
-    margin-left: 20px;
-    padding-left: 10px;
-    margin-bottom: 5px;
-  }
-  
-  .branch::before {
-    content: "";
-    position: absolute;
-    left: -10px;
-    top: 0;
-    height: 150%;
-    width: 1px;
-    background: black;
-  }
-  
-  .branch::after {
-    content: "";
-    position: absolute;
-    left: -10px;
-    top: 50%;
-    height: 1px;
-    width: 10px;
-    background: black;
-  }
-
-  .branch-end {
-    position: relative;
-    margin-left: 20px;
-    padding-left: 10px;
-    margin-bottom: 5px;
-  }
-
-  .branch-end::before {
-    content: "";
-    position: absolute;
-    left: -10px;
-    top: 0;
-    height: 55%; /* Change this to 50% to make the vertical line only half as tall */
-    width: 1px;
-    background: black;
-  }
-  
-  .branch-end::after {
-    content: "";
-    position: absolute;
-    left: -10px;
-    top: 50%;
-    height: 1px;
-    width: 10px;
-    background: black;
-  }
-
-  .container {
-    display: flex;
-    max-width: 90%; /* Added to limit overall width */
-    margin: 0 auto; /* Center the container */
-    padding: 20px 10%; /* Added horizontal padding */
-    margin-left: 0%; /* Reduced from 7% */
-  }
-  
-  #sidebar {
-    width: 15%; /* Reduced from 20% */
-    max-width: 150px; /* Reduced from 200px */
-    margin-right: 3%; /* Increased from 2% */
-  }
-  
-  .content {
+/* Content Area */
+.content {
     flex: 1;
-    max-width: 75%; /* Adjusted from 78% */
-    padding-right: 5%; /* Added right padding */
-  }
-  
-  .border-div {
-    /* border: 1px solid #000; */
-    padding: 40px;
-  }
-  
-  /* You may need to adjust or remove any existing positioning for #sidebar */
-
-html, body {
-    height: 80%;
-    margin: 0px;
-    padding: 0;
+    max-width: 75%;
+    padding-right: 5%;
 }
 
-/* FOR THE PROJECTS PAGE */
+/* Footer */
+div.footer {
+    margin-top: 10px;
+}
 
+/* Project Section */
 .project-post {
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin: 30px 0;
     padding-top: 20px;
     border-top: 1px solid #00406c;
 }
 
 .project-title {
     font-family: "Source Sans Pro", sans-serif;
-    color: #00406c;
-    font-weight: 200;
     font-size: 1.5rem;
     margin-bottom: 5px;
 }
 
 .project-date {
-    font-family: 'Didact Gothic', sans-serif;
-    color: #00406c;
     font-style: italic;
     font-size: 1rem;
     margin-bottom: 10px;
 }
 
 .project-description {
-    font-family: 'Didact Gothic', sans-serif;
-    color: #00406c;
     font-size: 1.2rem;
     margin-bottom: 15px;
 }
@@ -300,33 +145,69 @@ html, body {
     gap: 10px;
     margin-left: 5px;
 }
+
 .project-link {
-    font-family: 'Didact Gothic', sans-serif;
-    text-decoration: none;
-    margin-bottom: 10px;
-    color: #00406c;
     background-color: #FCFBF4;
+    color: #00406c;
     padding: 8px 12px;
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease;
-    display: inline-block;
 }
 
 .project-link:hover {
     background-color: #00406c;
     color: #71a5de;
-    text-decoration: none;
-}
-
-.project-link:hover {
     text-decoration: underline;
 }
 
-/* Add media queries for responsiveness */
+/* Branch Structure */
+.branch,
+.branch-end {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.branch::before,
+.branch-end::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    background: black;
+}
+
+.branch::before {
+    top: 0;
+    height: 150%;
+    width: 1px;
+}
+
+.branch-end::before {
+    top: 0;
+    height: 55%; /* Adjusted to 55% */
+    width: 1px;
+}
+
+.branch::after,
+.branch-end::after {
+    content: "";
+    position: absolute;
+    left: -10px;
+    background: black;
+}
+
+.branch::after,
+.branch-end::after {
+    top: 50%;
+    height: 1px;
+    width: 10px;
+}
+
+/* Responsive Layout */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
-        margin-left: 0;
         padding: 20px 2%;
     }
 
@@ -341,13 +222,6 @@ html, body {
         max-width: 100%;
         padding-right: 0;
     }
-}
-
-@media (max-width: 480px) {
-    body {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
 
     h1 {
         font-size: 4rem;
@@ -359,5 +233,29 @@ html, body {
 
     p {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    #sidebar {
+        width: 100%;
+        margin-right: 0;
     }
 }
