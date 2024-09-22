@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 body {
-    background-color: #F9F5F1;
+    background-color: #f8f9fb;
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -13,7 +13,7 @@ body {
 }
 
 .border-div {
-    background-color: #F9F5F1;
+    background-color: #f8f9fb;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +27,7 @@ body {
 
 h1 {
     font-family: "Source Sans Pro", sans-serif;
-	color: #563D25;
+	color: #71a5de;
     font-weight: 200;
     font-size: 5.5rem;
     line-height: 60px;
@@ -36,7 +36,7 @@ h1 {
 
 h3 {
     font-family: "Source Sans Pro", sans-serif;
-	color: #563D25;
+	color: #83b0e1;
     font-weight: 200;
     font-size: 1.9rem;
     line-height: 60px;
@@ -46,7 +46,7 @@ h3 {
 
 p {
     font-family: 'Didact Gothic', sans-serif;
-	color: #563D25;
+	color: #83b0e1;
     font-weight: 100;
     font-size: 1.2rem;
     font-style: bold;
@@ -69,7 +69,7 @@ p.counter-text {
     font-family: 'Didact Gothic', sans-serif;
     font-size: 12px;
     font-weight: 500;
-    color: #563D25;
+    color: #83b0e1;
     margin-bottom: 1px;
 }
 
@@ -97,7 +97,7 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
 .slp {
-    background-color: #F9F5F1;
+    background-color: #f8f9fb;
     margin-bottom: 10%;
     display: flex;
     flex-direction: column;
