@@ -1,0 +1,113 @@
+<!doctype html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <link rel="icon" href="images/kh.png">
+  <title>rhea acharya</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div id="sidebar">
+      <ul>
+        <li class="menu">
+          <a href="./index.html" class="menu-btn"><i class="far fa-folder"></i> home</a>
+        </li>
+        
+
+        <li class="menu">
+          <a href="./classes.html" class="menu-btn"><i class="far fa-folder"></i> classes</a>
+        </li>
+        <li class="menu"></li>
+          <a href="./projects.html" class="menu-btn"><i class="far fa-folder"></i> projects</a>
+        </li>
+        <li class="menu">
+          <a href="./research.html" class="menu-btn"><i class="far fa-folder"></i> research</a>
+        </li>
+        <li class="menu">
+            <a href="./writing.html" class="menu-btn"><i class="far fa-folder"></i> writing</a>
+          </li>
+        <li class="menu">
+            <a href="./reading.html" class="menu-btn"><i class="far fa-folder"></i> reading</a>
+          </li>
+        <li class="menu">
+          <a href="./skills.html" class="menu-btn"><i class="far fa-folder"></i> me</a>
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+      
+        <div class="big-name">
+          <h1><b>rhea acharya</b></h1>
+          
+        </div>
+        <p class="p-padding"> <b> senior @ harvard studying <a href="./classes.html">applied math</a> + <a href="https://github.com/rheaacharya11">cs</a> </a> </b> </p>
+
+      <br>
+        <div class="p-body">
+
+            <h3><b>journalism </b></h3>
+            <hr style="border: 0; height: 1px; background-color: #563D25; margin: 20px 0;">
+            <br>
+            <p><b> Harvard Crimson Blog & Arts Editor </b></p>
+            <p> Served as an Executive Editor for Flyby, the Crimson's blog. Also wrote pieces for the Arts Board.</p>
+          <p><a href="https://www.thecrimson.com/writer/1217337/Rhea_L._Acharya/"> Read my work here </a> </p>
+            <br>
+            <p><b> Impressions </b></p>
+            <p> Founded new column for the Crimson's Art Board, centered on the ways in which student life imitates art.</p>
+            <p><a href="https://www.thecrimson.com/column/impressions/">Read installments here.</a> </p>
+            <br>
+            <p><b> HiLite Newsmagazine </b></p>
+            <p> Served as Editor in Chief over staff of 80+ writers, graphic designers, editors to publish monthly 56-page newsmagazines and daily online content  </p>
+            <p><a href="https://hilite.org/staff_name/rhea-acharya/">Read my work here</a> </p>
+            <p><a href="https://crheativity.weebly.com/">See my high school design + writing portfolio here</a> </p>
+            <br>
+
+            <p><b> Writing & Journalism Awards </b></p>
+            <p> 6-Time NSPA-Pacemaker, dubbed Pulitzer Prize of Scholastic Journalism </p>
+            <p>  “Best of Sno” award for cover story “Changing Traditions” </p>
+            <p> Center for Scholastic Journalism’s Covering Activism Award </p>
+            <p> “Best of Best” Award Women's Press Club of Indiana </p>
+            <p> NFPW & WPCI First Place Package on Environment </p>
+            <p> Best of Show COVID-19 Online Coverage 
+             <p>Best of Show Website: Large School</p>
+            <p> Second Place Print Newsmagazine 2019-2020 </p>
+            <p> Quill and Scroll Honorable Mention Photo Illustration </p>
+            <p> NSPA Finalist for Interactive Graphic</p>
+            <br>
+            
+
+
+          
+        </div>
+    </div>
+  </div>
+  <!-- <script src="assets/js/scripts.js"></script> -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Handle menu buttons
+        const menuBtns = document.querySelectorAll('.menu-btn');
+        
+        menuBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                const menuContent = this.nextElementSibling;
+                if (menuContent) {
+                    menuContent.style.display = menuContent.style.display === 'block' ? 'none' : 'block';
+                }
+                
+                const menu = this.closest('.menu');
+                if (menu) {
+                    menu.classList.toggle('toggled');
+                }
+            });
+        });
+    });
+  </script>
+</body>
+</html>
