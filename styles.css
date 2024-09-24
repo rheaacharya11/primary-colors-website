@@ -236,6 +236,31 @@ div.footer {
     }
 }
 
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px; 
+  }
+  
+  .circle-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  
+  .circle-1 { background-color: #e1c2df; } /* Lightest saturation of #743089 */
+  .circle-2 { background-color: #c793c1; }
+  .circle-3 { background-color: #a964a3; }
+  .circle-4 { background-color: #874885; }
+  .circle-5 { background-color: #743089; }
+
 @media (max-width: 480px) {
     body {
         padding-left: 3%;
