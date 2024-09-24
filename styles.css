@@ -238,28 +238,39 @@ div.footer {
 
 .footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start; /* Align circles to the left */
     padding: 20px; 
-  }
+}
   
-  .circle-container {
+.circle-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start; /* Align circles to the left */
     align-items: center;
-  }
+}
   
-  .circle {
+.circle {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     margin: 0 10px;
-  }
+}
   
-  .circle-1 { background-color: #e1c2df; } /* Lightest saturation of #743089 */
-  .circle-2 { background-color: #c793c1; }
-  .circle-3 { background-color: #a964a3; }
-  .circle-4 { background-color: #874885; }
-  .circle-5 { background-color: #743089; }
+/* Color gradient transitioning from dark blue to purple */
+.circle-1 { background-color: #00406c; } /* Dark blue */
+.circle-2 { background-color: #1b587a; }
+.circle-3 { background-color: #32708a; }
+.circle-4 { background-color: #4c8798; }
+.circle-5 { background-color: #649ea8; }
+.circle-6 { background-color: #7cb7b8; } /* Transition to lighter blue */
+.circle-7 { background-color: #98afc6; } /* Start of purple transition */
+.circle-8 { background-color: #b7b7d5; }
+.circle-9 { background-color: #d2afdf; }
+.circle-10 { background-color: #e1c2df; } /* Light purple */
+.circle-11 { background-color: #c793c1; }
+.circle-12 { background-color: #a964a3; }
+.circle-13 { background-color: #874885; }
+.circle-14 { background-color: #743089; } /* Dark purple */
+
 
 @media (max-width: 480px) {
     body {
