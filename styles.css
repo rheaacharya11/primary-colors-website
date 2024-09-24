@@ -258,22 +258,22 @@ div.footer {
     margin: 0 5px; /* Adjust spacing between circles */
 }
 
-/* Color gradient transitioning from dark blue to purple */
-/* Color gradient transitioning from dark blue to purple */
+/* Color gradient transitioning from dark blue to softer purple */
 .circle-1 { background-color: #00406c; }  /* Dark blue */
 .circle-2 { background-color: #185a7d; }  /* Slightly lighter blue */
 .circle-3 { background-color: #2f738e; }  /* Mid-range blue */
 .circle-4 { background-color: #477e9e; }  /* Lighter blue */
-.circle-5 { background-color: #5f88ae; }  /* Light blue */
-.circle-6 { background-color: #7782b8; }  /* Start transitioning to bluish-purple */
-.circle-7 { background-color: #8f77c1; }  /* Bluish-purple */
-.circle-8 { background-color: #a56bc9; }  /* Light purple */
-.circle-9 { background-color: #bc5fd1; }  /* Light violet */
-.circle-10 { background-color: #d25cdd; } /* More intense violet */
-.circle-11 { background-color: #c793c1; } /* Soft purple */
-.circle-12 { background-color: #a964a3; } /* Deep purple */
-.circle-13 { background-color: #874885; } /* Darker purple */
+.circle-5 { background-color: #5f88ae; }  /* Soft blue */
+.circle-6 { background-color: #7389b3; }  /* Blue with a hint of purple */
+.circle-7 { background-color: #8b7da8; }  /* Muted blue-purple */
+.circle-8 { background-color: #a27fa6; }  /* Soft lavender purple */
+.circle-9 { background-color: #b386b2; }  /* Light lavender */
+.circle-10 { background-color: #c49fbe; } /* Pale lavender */
+.circle-11 { background-color: #d1b5cc; } /* Very soft light purple */
+.circle-12 { background-color: #b190b0; } /* Soft purple */
+.circle-13 { background-color: #9a7394; } /* Muted medium purple */
 .circle-14 { background-color: #743089; } /* Darkest purple */
+
 
 
 
