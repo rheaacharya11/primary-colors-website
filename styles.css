@@ -238,46 +238,28 @@ div.footer {
 
 .footer {
     display: flex;
-    justify-content: flex-start; /* Align circles to the left */
-    padding: 20px;
-    margin-top: 20px;  /* Adds space between content and footer */
-}
-
-.circle-container {
+    justify-content: flex-end;
+    padding: 20px; 
+  }
+  
+  .circle-container {
     display: flex;
-    justify-content: flex-start; /* Align circles to the left */
+    justify-content: flex-end;
     align-items: center;
-    flex-wrap: wrap; /* Allows circles to wrap on smaller screens */
-}
-
-.circle {
+  }
+  
+  .circle {
     width: 20px;
     height: 20px;
-    border-radius: 50%; /* Ensures the shape remains circular */
-    margin: 0 5px; /* Adjusts spacing between circles */
-    flex-shrink: 0; /* Prevents shrinking when the screen size changes */
-}
-
-/* Color gradient transitioning from dark blue to softer purple */
-.circle-1 { background-color: #00406c; }  
-.circle-2 { background-color: #185a7d; }  
-.circle-3 { background-color: #2f738e; }  
-.circle-4 { background-color: #477e9e; }  
-.circle-5 { background-color: #5f88ae; }  
-.circle-6 { background-color: #7389b3; }  
-.circle-7 { background-color: #8b7da8; }  
-.circle-8 { background-color: #a27fa6; }  
-.circle-9 { background-color: #b386b2; }  
-.circle-10 { background-color: #c49fbe; } 
-.circle-11 { background-color: #d1b5cc; } 
-.circle-12 { background-color: #b190b0; } 
-.circle-13 { background-color: #9a7394; } 
-.circle-14 { background-color: #743089; } 
-
-
-
-
-
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  
+  .circle-1 { background-color: #e1c2df; } /* Lightest saturation of #743089 */
+  .circle-2 { background-color: #c793c1; }
+  .circle-3 { background-color: #a964a3; }
+  .circle-4 { background-color: #874885; }
+  .circle-5 { background-color: #743089; }
 
 @media (max-width: 480px) {
     body {
