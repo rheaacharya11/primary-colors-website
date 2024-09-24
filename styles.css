@@ -78,7 +78,7 @@ a:hover {
 
 /* Sidebar Styles */
 #sidebar {
-    position: sticky;
+    position: fixed;
     top: 20px;
     align-self: flex-start;
     max-height: calc(100vh - 40px);
