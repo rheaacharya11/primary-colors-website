@@ -196,8 +196,8 @@ body {
 }
 
 /* Dot color mappings */
-.dot-1 { background-color: #f28b82; } /* Light Red */
-.dot-2 { background-color: #fbbc04; } /* Light Orange */
+.dot-1 { background-color: #C4FCEF; } /* Light Red */
+.dot-2 { background-color: #E0BBE4; } /* Light Orange */
 .dot-3 { background-color: #fff475; } /* Light Yellow */
 .dot-4 { background-color: #ccff90; } /* Light Green */
 .dot-5 { background-color: #a7ffeb; } /* Light Aqua */
@@ -205,7 +205,6 @@ body {
 .dot-7 { background-color: #aecbfa; } /* Blue */
 .dot-8 { background-color: #d7aefb; } /* Light Purple */
 .dot-9 { background-color: #fdcfe8; } /* Light Pink */
-.dot-10 { background-color: #e6c9a8; } /* Light Brown */
 
 /* Scale dots based on screen size */
 @media (max-width: 1024px) {
