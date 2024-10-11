@@ -64,7 +64,7 @@ p {
 }
 
 a {
-    color: #DE3163;
+    color: #f35bac;
     text-decoration: none;
 }
 
@@ -117,7 +117,7 @@ a:hover {
 }
 
 .navbar ul li a {
-    color: #DE3163;
+    color: #f35bac;
     text-decoration: none;
     font-family: 'Didact Gothic', sans-serif;
     padding: 10px 20px;
@@ -302,11 +302,11 @@ div.footer {
     margin: 0 10px;
   }
   
-  .circle-1 { background-color: #e1c2df; } /* Lightest saturation of #DE3163 */
+  .circle-1 { background-color: #e1c2df; } /* Lightest saturation of #f35bac */
   .circle-2 { background-color: #c793c1; }
   .circle-3 { background-color: #a964a3; }
   .circle-4 { background-color: #874885; }
-  .circle-5 { background-color: #DE3163; }
+  .circle-5 { background-color: #f35bac; }
 
 @media (max-width: 480px) {
     body {
