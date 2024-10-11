@@ -23,8 +23,19 @@ body {
 }
 
 /* Typography Styles */
+
+
+/* Import Pixel Operator Font */
+@font-face {
+    font-family: 'Pixel Operator';
+    src: url('PixelOperator-Bold.ttf') format('truetype'); /* Ensure the path is correct */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* h1 Styles */
 h1 {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Pixel Operator', sans-serif; /* Use Pixel Operator font */
     color: #00406c;
     font-weight: 200;
     font-size: 5.5rem;
@@ -32,14 +43,16 @@ h1 {
     margin-bottom: 15px;
 }
 
+/* h3 Styles */
 h3 {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Pixel Operator', sans-serif; /* Use Pixel Operator font */
     color: #00406c;
     font-weight: 200;
     font-size: 1.9rem;
     line-height: 60px;
     margin: 5px 0;
 }
+
 
 p {
     font-family: 'Didact Gothic', sans-serif;
