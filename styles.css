@@ -18,12 +18,11 @@ body {
     justify-content: flex-start;
     align-items: center;
     margin-top: 1.5%;
-    padding: 0 5%;
+    padding: 0;
     color: #000000;
 }
 
 /* Typography Styles */
-
 
 /* Import Pixel Operator Font */
 @font-face {
@@ -53,7 +52,6 @@ h3 {
     line-height: 60px;
     margin: 5px 0;
 }
-
 
 p {
     font-family: 'Didact Gothic', sans-serif;
@@ -85,10 +83,12 @@ a:hover {
 /* Layout Container */
 .container {
     display: flex;
-    max-width: 90%;
+    max-width: 1200px; /* Increase max width for desktop */
+    width: 100%;
     margin: 0 auto;
-    padding: 20px 10%;
+    padding: 20px 2%;
 }
+
 /* Navbar Styles */
 .navbar {
     width: 100%;
@@ -149,7 +149,6 @@ a:hover {
         margin-bottom: 10px;
     }
 }
-
 
 /* Content Area */
 .content {
@@ -287,26 +286,26 @@ div.footer {
     display: flex;
     justify-content: flex-end;
     padding: 20px; 
-  }
-  
-  .circle-container {
+}
+
+.circle-container {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
-  
-  .circle {
+}
+
+.circle {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     margin: 0 10px;
-  }
-  
-  .circle-1 { background-color: #e1c2df; } /* Lightest saturation of #f35bac */
-  .circle-2 { background-color: #c793c1; }
-  .circle-3 { background-color: #a964a3; }
-  .circle-4 { background-color: #874885; }
-  .circle-5 { background-color: #f35bac; }
+}
+
+.circle-1 { background-color: #e1c2df; } /* Lightest saturation of #f35bac */
+.circle-2 { background-color: #c793c1; }
+.circle-3 { background-color: #a964a3; }
+.circle-4 { background-color: #874885; }
+.circle-5 { background-color: #f35bac; }
 
 @media (max-width: 480px) {
     body {
