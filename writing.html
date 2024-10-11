@@ -82,26 +82,24 @@
         </div>
     </div>
   </div>
-  <!-- <script src="assets/js/scripts.js"></script> -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Handle menu buttons
-        const menuBtns = document.querySelectorAll('.menu-btn');
-        
-        menuBtns.forEach(btn => {
-            btn.addEventListener('click', function() {
-                const menuContent = this.nextElementSibling;
-                if (menuContent) {
-                    menuContent.style.display = menuContent.style.display === 'block' ? 'none' : 'block';
-                }
-                
-                const menu = this.closest('.menu');
-                if (menu) {
-                    menu.classList.toggle('toggled');
-                }
-            });
-        });
-    });
-  </script>
+ 
 </body>
+
+  <footer class="footer">
+    <div class="dot-container">
+        <!-- 30 Dots with specific color mappings -->
+        <div class="dot dot-1"></div>
+        <div class="dot dot-2"></div>
+        <div class="dot dot-3"></div>
+        <div class="dot dot-4"></div>
+        <div class="dot dot-5"></div>
+        <div class="dot dot-6"></div>
+        <div class="dot dot-7"></div>
+        <div class="dot dot-8"></div>
+        <div class="dot dot-9"></div>
+        <div class="dot dot-10"></div>
+        <!-- Repeat as many as needed -->
+    </div>
+</footer>
+
 </html>
