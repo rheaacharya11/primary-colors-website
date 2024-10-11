@@ -120,31 +120,69 @@ p {
     font-weight: bold;
 }
 
-/* Footer */
+/* Footer styles */
 .footer {
     display: flex;
     justify-content: flex-end;
-    padding: 20px;
-}
-
-.circle-container {
-    display: flex;
-    justify-content: flex-end;
     align-items: center;
+    width: 100%;
+    height: 150px; /* Adjust height as needed */
+    position: relative;
+    background-color: #ffffff; /* Ensure the background is white */
 }
 
-.circle {
-    width: 20px;
-    height: 20px;
+/* Dot container only taking up the right 2/3 of the page */
+.dot-container {
+    width: 66.67%; /* Two-thirds width of the page */
+    height: 100%; /* Full height of the footer */
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Individual dot styles */
+.dot {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    margin: 0 10px;
+    margin: 10px;
 }
 
-.circle-1 { background-color: #e1c2df; } /* Lightest saturation of #f35bac */
-.circle-2 { background-color: #c793c1; }
-.circle-3 { background-color: #a964a3; }
-.circle-4 { background-color: #874885; }
-.circle-5 { background-color: #f35bac; }
+/* Dot color mappings */
+.dot-1 { background-color: #f28b82; } /* Light Red */
+.dot-2 { background-color: #fbbc04; } /* Light Orange */
+.dot-3 { background-color: #fff475; } /* Light Yellow */
+.dot-4 { background-color: #ccff90; } /* Light Green */
+.dot-5 { background-color: #a7ffeb; } /* Light Aqua */
+.dot-6 { background-color: #cbf0f8; } /* Light Blue */
+.dot-7 { background-color: #aecbfa; } /* Blue */
+.dot-8 { background-color: #d7aefb; } /* Light Purple */
+.dot-9 { background-color: #fdcfe8; } /* Light Pink */
+.dot-10 { background-color: #e6c9a8; } /* Light Brown */
+
+/* Scale dots based on screen size */
+@media (max-width: 1024px) {
+    .dot {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dot {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dot {
+        width: 20px;
+        height: 20px;
+    }
+}
+
 
 /* Responsive Layout */
 @media (max-width: 768px) {
