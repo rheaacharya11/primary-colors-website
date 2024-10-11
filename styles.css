@@ -11,7 +11,7 @@
 
 /* Body Styles */
 body {
-    background-color: #FCFBF4;
+    background-color: #FFFFFF;
     font-family: 'Didact Gothic', sans-serif;
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@ a:hover {
 
 /* Border Container */
 .border-div {
-    background-color: #FCFBF4;
+    background-color: #FFFFFF;
     padding: 40px;
     max-width: 100%;
     display: flex;
@@ -91,7 +91,7 @@ a:hover {
 /* Navbar Styles */
 .navbar {
     width: 100%;
-    background-color: #FCFBF4;
+    background-color: #FFFFFF;
     padding: 10px 0;
     position: fixed; /* Stick to the top of the page */
     top: 0;
@@ -193,7 +193,7 @@ div.footer {
 }
 
 .project-link {
-    background-color: #FCFBF4;
+    background-color: #FFFFFF;
     color: #00406c;
     padding: 8px 12px;
     border-radius: 5px;
