@@ -44,7 +44,7 @@ body {
 
 @font-face {
     font-family: 'Pixel Operator Light';
-    src: url('fonts/PixelOperator.ttf') format('truetype'); /* Ensure the path is correct */
+    src: url('PixelOperator.ttf') format('truetype'); /* Ensure the path is correct */
     font-weight: 300; /* Typically a 'light' font has a weight of 300 */
     font-style: normal;
 }
