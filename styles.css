@@ -77,32 +77,41 @@ p {
 /* Navbar Styles */
 .navbar {
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: #000000; /* Make the navbar black */
     padding: 10px 0;
     position: fixed; /* Stick to the top of the page */
     top: 0;
     left: 0;
-    z-index: 1000; /* Ensures navbar stays above other elements */
+    z-index: 1000;
     display: flex;
-    justify-content: center; /* Center the navbar content */
-    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: white; /* Make the text in the navbar white */
 }
 
-.navbar ul {
+/* Logo (RHEA ACHARYA) aligned to the left */
+.logo {
+    font-family: 'Pixel Operator', sans-serif; /* Use Pixel Operator for the logo */
+    font-size: 1.5rem;
+    color: #ffffff; /* Make the logo white */
+    margin-left: 20px; /* Optional: add some margin */
+}
+
+/* Navbar links aligned to the right */
+.navbar-links {
     list-style-type: none;
-    display: flex; /* Display menu items horizontally */
+    display: flex; /* Horizontal alignment */
     gap: 20px; /* Space between menu items */
-    margin: 0;
-    padding: 0;
+    margin-right: 20px; /* Optional: add margin to the right */
 }
 
-.navbar ul li {
+.navbar-links li {
     display: inline-block;
 }
 
-.navbar ul li a {
-    color: #f35bac;
+.navbar-links li a {
+    color: #ffffff; /* Make the links white */
     text-decoration: none;
     font-family: 'Didact Gothic', sans-serif;
     padding: 10px 20px;
@@ -110,12 +119,26 @@ p {
     transition: color 0.3s ease;
 }
 
-.navbar ul li a:hover {
-    color: #71a5de;
+.navbar-links li a:hover {
+    color: #71a5de; /* Change color on hover */
+}
+
+/* Add padding to the top of the body or container to prevent overlap */
+body {
+    padding-top: 60px; /* Adjust based on the height of your navbar */
+}
+
+/* Container for content */
+.container {
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 /* Active link style */
-.navbar ul li a.active {
+.navbar-links li a.active {
     color: #71a5de;
     font-weight: bold;
 }
