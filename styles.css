@@ -67,8 +67,8 @@ h1 {
 h2 {
     font-family: 'Space Grotesk', sans-serif; /* Use Space Grotesk font */
     color: #000000;
-    font-weight: 500; /* Use medium weight */
-    font-size: 5.5rem; /* Keep your existing font size */
+    font-weight: 400; /* Use medium weight */
+    font-size: 4rem; /* Keep your existing font size */
     line-height: 60px; /* Keep your existing line height */
     text-align: center; /* Center the text */
     margin-bottom: 15px;
@@ -252,6 +252,10 @@ body {
 
     h1 {
         font-size: 4rem; /* Smaller h1 for mobile */
+    }
+
+    h2 {
+        font-size: 2rem; /* Smaller h3 for mobile */
     }
 
     h3 {
