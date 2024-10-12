@@ -9,8 +9,7 @@
 body {
     background-color: #ffffff;
     font-family: 'Didact Gothic', sans-serif;
-    display: flex;
-    justify-content: center; /* Center the content horizontally */
+    display: flex; /* Center the content horizontally */
     align-items: flex-start; /* Align content at the top */
     margin: 0;
     padding: 0;
