@@ -316,11 +316,16 @@ body {
         font-size: 3rem;
     }
 
+    h2{
+        line-height: 30px;
+    }
+
     h3 {
         font-size: 1.3rem;
     }
 
     p {
         font-size: 0.9rem;
+        
     }
 }
