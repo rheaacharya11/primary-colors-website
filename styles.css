@@ -103,8 +103,11 @@ a {
 }
 
 .bold-link {
-    font-weight: bold; /* Make the text bold */
-    color: #000000; /* Black color for bold links */
+    color: #000000; /* Black for bold links */
+    text-decoration: underline; /* Underline the link */
+    text-decoration-style: dotted; /* Make the underline dotted */
+    text-decoration-thickness: 2px; /* Adjust thickness if needed */
+    text-underline-offset: 4px;
 }
 
 /* Paragraph Styles */
