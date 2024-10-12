@@ -83,8 +83,7 @@ h4 {
     color: #000000;
     font-weight: 200;
     font-size: 1.9rem;
-    line-height: 30px;
-    text-align: left; /* Center the text */
+    line-height: 30px; /* Center the text */
     margin: 5px 0;
 }
 
