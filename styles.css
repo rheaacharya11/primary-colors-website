@@ -97,10 +97,18 @@ h4 {
     margin: 5px 0;
 }
 
+.half-highlight {
+    background: linear-gradient(to top, #faedcb 50%, transparent 50%); /* Pastel pink on the bottom half */
+    padding: 0 5px;   /* Adjust padding as needed */
+    text-decoration: none;
+}
+  
+
 a {
     color: #f5598a; /* Change to your desired color */
     text-decoration: none; /* Remove underline */
 }
+
 
 .bold-link {
     color: #000000; /* Black for bold links */
