@@ -91,6 +91,11 @@ p {
     margin: 5px 0;
 }
 
+.dotted-underline {
+    text-decoration: underline;
+    text-decoration-style: dotted; /* Specifies the style of the underline */
+}
+
 /* Navbar Styles */
 .navbar {
     width: 100%;
