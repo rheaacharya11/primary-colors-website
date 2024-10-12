@@ -259,8 +259,8 @@ body {
 
 .semester h2 {
     margin-top: 0;
+    font-size: 1.8rem;
     font-family: 'Didact Gothic', sans-serif; /* Your current font */
-    font-weight: bold;
 }
 
 .semester ul {
