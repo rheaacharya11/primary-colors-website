@@ -63,8 +63,8 @@ h2 {
     font-family: 'Space Grotesk', sans-serif; /* Use Space Grotesk font */
     color: #000000;
     font-weight: 500; /* Use medium weight */
-    font-size: 3rem; /* Keep your existing font size */
-    line-height: 60px; /* Keep your existing line height */
+    font-size: 2.7rem; /* Keep your existing font size */
+    line-height: 50px; /* Keep your existing line height */
     text-align: center; /* Center the text */
     margin-bottom: 15px;
 }
