@@ -253,9 +253,14 @@ body {
     background-color: #faedcb; /* Light background for the rectangle */
 }
 
+.semester.spring{
+    background-color:#c6def1;
+}
+
 .semester h2 {
     margin-top: 0;
-    font-family: 'Space Grotesk', sans-serif; /* Your current font */
+    font-family: 'Didact Gothic', sans-serif; /* Your current font */
+    font-weight: bold;
 }
 
 .semester ul {
