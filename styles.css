@@ -108,6 +108,16 @@ a {
     color: #f5598a; /* Change to your desired color */
     text-decoration: none; /* Remove underline */
 }
+/* Default link styling */
+.hover-link {
+    color: #000000;
+    text-decoration: underline;
+}
+
+/* Change color on hover for this class */
+.hover-link:hover {
+    color: #f5598a;
+}
 
 
 .bold-link {
@@ -224,6 +234,47 @@ body {
 
     .logo {
         margin-left: 20px; /* Ensure some margin on smaller screens */
+    }
+}
+
+
+/* Specific styling for the classes section */
+.classes-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two rectangles (semesters) per row */
+    gap: 20px; /* Space between the rectangles */
+    padding: 20px;
+    margin-top: 20px; /* Add some space at the top */
+}
+
+.semester {
+    border: 2px solid black; /* Border for the semester rectangle */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f0f0f0; /* Light background for the rectangle */
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.semester h2 {
+    margin-top: 0;
+    font-family: 'Space Grotesk', sans-serif; /* Your current font */
+    font-weight: bold;
+}
+
+.semester ul {
+    list-style: none;
+    padding: 0;
+}
+
+.semester li {
+    font-family: 'Space Grotesk', sans-serif;
+    margin-bottom: 10px;
+}
+
+/* For smaller screens, stack semesters vertically */
+@media (max-width: 768px) {
+    .classes-section {
+        grid-template-columns: 1fr; /* Stack semesters in one column */
     }
 }
 
