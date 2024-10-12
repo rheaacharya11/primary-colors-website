@@ -17,8 +17,6 @@ body {
 }
 
 
-
-
 /* Apply the 70% width rule only for laptop and larger screens */
 @media (min-width: 1024px) {
     .container {
@@ -179,7 +177,6 @@ body {
 .container {
     max-width: 1100px;
     width: 100%;
-    text-align: center;
     margin: 0 auto;
     padding: 20px;
 }
