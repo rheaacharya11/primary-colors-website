@@ -116,7 +116,8 @@ a {
 
 /* Change color on hover for this class */
 .hover-link:hover {
-    color: #f5598a;
+    background: linear-gradient(to top, #f2c6de 50%, transparent 50%); /* Pastel pink on the bottom half */
+    padding: 0 5px;   /* Adjust padding as needed */
 }
 
 
@@ -247,17 +248,14 @@ body {
     margin-top: 20px; /* Add some space at the top */
 }
 
-.semester {
-    border: 2px solid black; /* Border for the semester rectangle */
+.semester { /* Border for the semester rectangle */
     padding: 20px;
-    border-radius: 8px;
-    background-color: #f0f0f0; /* Light background for the rectangle */
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+    background-color: #faedcb; /* Light background for the rectangle */
 }
 
 .semester h2 {
     margin-top: 0;
-    font-family: 'Space Grotesk', sans-serif; /* Your current font */
+    font-family: 'Pixel Operator', sans-serif; /* Your current font */
     font-weight: bold;
 }
 
