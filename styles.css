@@ -94,6 +94,8 @@ p {
 .dotted-underline {
     text-decoration: underline;
     text-decoration-style: dotted; /* Specifies the style of the underline */
+    text-decoration-thickness: 2px; /* Thickness of the underline */
+    text-underline-offset: 2px;
 }
 
 /* Navbar Styles */
