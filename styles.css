@@ -177,6 +177,10 @@ p1 {
     margin-left: 20px; /* Optional: add some margin */
 }
 
+logo:hover {
+    color: #f5598a; /* Change color on hover */
+}
+
 /* Navbar links aligned to the right */
 .navbar-links {
     list-style-type: none;
