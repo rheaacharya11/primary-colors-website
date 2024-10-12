@@ -102,6 +102,11 @@ a {
     text-decoration: none; /* Remove underline */
 }
 
+.bold-link {
+    font-weight: bold; /* Make the text bold */
+    color: #000000; /* Black color for bold links */
+}
+
 /* Paragraph Styles */
 p {
     font-family: 'Space Grotesk', sans-serif;
