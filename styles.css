@@ -271,6 +271,7 @@ body {
 .semester li {
     font-family: 'Pixel Operator Light', sans-serif;
     margin-bottom: 10px;
+    font-size: 1.2rem;
 }
 
 /* For smaller screens, stack semesters vertically */
