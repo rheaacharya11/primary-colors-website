@@ -17,13 +17,8 @@ body {
     color: #000000;
 }
 
-/* Container - Spanning 70% width on larger screens */
-.container {
-    width: 100%; /* Default for small screens */
-    max-width: 1100px; /* Cap the container width for readability */
-    padding: 20px;
-    text-align: center; /* Center text */
-}
+
+
 
 /* Apply the 70% width rule only for laptop and larger screens */
 @media (min-width: 1024px) {
@@ -151,7 +146,7 @@ body {
 
 /* Container for content */
 .container {
-    max-width: 1100px;
+    max-width: 1150px;
     width: 100%;
     text-align: center;
     margin: 0 auto;
