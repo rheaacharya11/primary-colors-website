@@ -183,7 +183,7 @@ body p1 {
 .container {
     max-width: 1100px;
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
     padding: 20px;
 }
