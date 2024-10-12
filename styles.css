@@ -256,7 +256,6 @@ body {
 .semester h2 {
     margin-top: 0;
     font-family: 'Pixel Operator', sans-serif; /* Your current font */
-    font-weight: bold;
 }
 
 .semester ul {
@@ -265,7 +264,7 @@ body {
 }
 
 .semester li {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
     margin-bottom: 10px;
 }
 
