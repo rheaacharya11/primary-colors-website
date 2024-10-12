@@ -20,7 +20,7 @@ body {
 /* Container - Spanning 70% width on larger screens */
 .container {
     width: 100%; /* Default for small screens */
-    max-width: 1000px; /* Cap the container width for readability */
+    max-width: 1200px; /* Cap the container width for readability */
     padding: 20px;
     text-align: center; /* Center text */
 }
