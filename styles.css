@@ -28,7 +28,7 @@ body {
 /* Apply the 70% width rule only for laptop and larger screens */
 @media (min-width: 1024px) {
     .container {
-        width: 70%; /* On laptops and larger, container spans 70% of the screen */
+        width: 80%; /* On laptops and larger, container spans 70% of the screen */
     }
 }
 
