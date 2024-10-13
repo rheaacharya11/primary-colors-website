@@ -106,8 +106,12 @@ h4 {
 
 a {
     /* Change to your desired color */
-    color: #000000;
+    color: #f5598a;
     text-decoration: none; /* Remove underline */
+}
+
+a.name{
+    color: #000000;
 }
 /* Default link styling */
 .hover-link {
