@@ -52,27 +52,7 @@
         </div>
     </div>
   </div>
-  <!-- <script src="assets/js/scripts.js"></script> -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Handle menu buttons
-        const menuBtns = document.querySelectorAll('.menu-btn');
-        
-        menuBtns.forEach(btn => {
-            btn.addEventListener('click', function() {
-                const menuContent = this.nextElementSibling;
-                if (menuContent) {
-                    menuContent.style.display = menuContent.style.display === 'block' ? 'none' : 'block';
-                }
-                
-                const menu = this.closest('.menu');
-                if (menu) {
-                    menu.classList.toggle('toggled');
-                }
-            });
-        });
-    });
-  </script>
+
 </body>
 </html>
 
