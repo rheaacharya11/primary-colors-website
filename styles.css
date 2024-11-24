@@ -88,10 +88,20 @@ h2 {
     font-weight: 500; /* Use medium weight */
     font-size: 2.7rem; /* Keep your existing font size */
     line-height: 50px; /* Keep your existing line height */
-    text-align: center; /* Center the text */
+    text-align: left; /* Center the text */
     margin-bottom: 15px;
 }
 
+
+h5 {
+    font-family: 'Open Sans', sans-serif; /* Use Space Grotesk font */
+    color: #000000;
+    font-weight: 1000; /* Use medium weight */
+    font-size: 2.7rem; /* Keep your existing font size */
+    line-height: 50px; /* Keep your existing line height */
+    text-align: left; /* Center the text */
+    margin-bottom: 15px;
+}
 
 /* h3 Styles */
 h3 {
@@ -164,7 +174,7 @@ a.name{
 
 /* Paragraph Styles */
 p {
-    font-family: 'Metropolis', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #000000;
     font-size: 1.2rem;
     font-weight: 100;
