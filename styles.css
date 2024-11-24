@@ -8,14 +8,14 @@
 
 @font-face {
     font-family: 'Metropolis';
-    src: url('metropolis/Metropolis-Regular.otf') format('opentype');
+    src: url('metropolis/Metropolis-Thin.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    src: url('metropolis/Metropolis-Black.otf') format('opentype');
+    src: url('metropolis/Metropolis-Bold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
