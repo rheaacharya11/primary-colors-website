@@ -28,13 +28,11 @@ body {
     text-align: center;
 }
 
-/* Apply the 70% width rule only for laptop and larger screens */
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
     .container {
-        width: 70%; /* On laptops and larger, container spans 70% of the screen */
+        width: 60%; /* Reduce width to 60% for laptops */
     }
 }
-
 /* Typography Styles */
 
 /* Import Pixel Operator Font */
