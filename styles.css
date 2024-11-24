@@ -8,14 +8,14 @@
 
 @font-face {
     font-family: 'Metropolis';
-    src: url('metropolis/Metropolis-Regular.otf') format('otf');
+    src: url('metropolis/Metropolis-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Metropolis';
-    src: url('metropolis/Metropolis-Black.otf') format('otf');
+    src: url('metropolis/Metropolis-Black.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
@@ -164,7 +164,7 @@ a.name{
 
 /* Paragraph Styles */
 p {
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Metropolis', sans-serif;
     color: #000000;
     font-size: 1.2rem;
     font-weight: 100;
