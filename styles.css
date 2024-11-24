@@ -13,6 +13,7 @@ body {
     align-items: flex-start; /* Align content at the top */
     margin: 0;
     padding: 0;
+    padding-top: calc(var(--navbar-height, 60px));
     color: #000000;
 }
 .align-left {
@@ -162,6 +163,7 @@ p1 {
 /* Navbar Styles */
 .navbar {
     width: 100%;
+    --navbar-height: 60px;
     background-color: #ffffff; /* Make the navbar black */
     padding: 10px 0;
     position: fixed; /* Stick to the top of the page */
@@ -231,21 +233,49 @@ body {
     font-weight: bold;
 }
 
+
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start; /* Align items to the start */
+    .menu-toggle {
+        display: block; /* Show the menu toggle on small screens */
     }
 
     .navbar-links {
-        justify-content: flex-start; /* Align links to the left on small screens */
-        margin-right: 0;
+        display: none; /* Initially hidden */
+        flex-direction: column;
+        position: absolute;
+        top: 60px; /* Adjust based on your navbar height */
+        left: 0;
+        width: 100%;
+        background-color: #ffffff; /* Same as the navbar background */
+        padding: 20px 0;
+        gap: 15px;
+        border-top: 1px solid #ccc;
+        transition: max-height 0.3s ease;
+        max-height: 0; /* Collapse when hidden */
+        overflow: hidden;
+    }
+
+    /* Show the menu when active */
+    .navbar-links.active {
+        display: flex;
+        max-height: 500px; /* Adjust as needed to fit your menu content */
+    }
+
+    .navbar-links li {
+        text-align: center; /* Center-align links in dropdown */
+    }
+
+    .navbar-links li a {
+        font-size: 1.5rem; /* Adjust for mobile */
+        padding: 10px 0;
     }
 
     .logo {
         margin-left: 20px; /* Ensure some margin on smaller screens */
     }
+    
 }
+
 
 
 /* Specific styling for the classes section */
