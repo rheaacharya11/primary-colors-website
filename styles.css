@@ -21,11 +21,21 @@
 }
 
 
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('opensans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
 
 /* Body Styles */
 body {
     background-color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     display: flex; /* Center the content horizontally */
     align-items: flex-start; /* Align content at the top */
     margin: 0;
@@ -83,7 +93,7 @@ h1 {
 
 /* h2 Styles */
 h2 {
-    font-family: 'Open Sans', sans-serif; /* Use Space Grotesk font */
+    font-family: 'Open-Sans', sans-serif; /* Use Space Grotesk font */
     color: #000000;
     font-weight: 300; /* Use medium weight */
     font-size: 2.3rem; /* Keep your existing font size */
@@ -94,7 +104,7 @@ h2 {
 
 
 h5 {
-    font-family: 'Open Sans', sans-serif; /* Use Space Grotesk font */
+    font-family: 'Open-Sans', sans-serif; /* Use Space Grotesk font */
     color: #000000;
     font-weight: 550; /* Use medium weight */
     font-size: 3rem; /* Keep your existing font size */
@@ -174,7 +184,7 @@ a.name{
 
 /* Paragraph Styles */
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open-Sans', sans-serif;
     color: #000000;
     font-size: 1.2rem;
     font-weight: 100;
