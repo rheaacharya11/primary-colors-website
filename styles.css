@@ -23,11 +23,26 @@
 
 @font-face {
     font-family: 'Open-Sans';
-    src: url('opensans.ttf') format('truetype');
+    src: url('open-sans/OpenSans-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('open-sans/OpenSans-SemiBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('open-sans/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
 
 
 
@@ -95,7 +110,7 @@ h1 {
 h2 {
     font-family: 'Open-Sans', sans-serif; /* Use Space Grotesk font */
     color: #000000;
-    font-weight: 300; /* Use medium weight */
+    font-weight: normal; /* Use medium weight */
     font-size: 1.9rem; /* Keep your existing font size */
     line-height: 35px; /* Keep your existing line height */
     text-align: left; /* Center the text */
@@ -106,8 +121,8 @@ h2 {
 h5 {
     font-family: 'Open-Sans', sans-serif; /* Use Space Grotesk font */
     color: #000000;
-    font-weight: 750; /* Use medium weight */
-    font-size: 4rem; /* Keep your existing font size */
+    font-weight: bold; /* Use medium weight */
+    font-size: 3.5rem; /* Keep your existing font size */
     line-height: 75px; /* Keep your existing line height */
     text-align: left; /* Center the text */
     margin-bottom: 15px;
