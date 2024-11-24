@@ -85,8 +85,8 @@ h1 {
 h2 {
     font-family: 'Open Sans', sans-serif; /* Use Space Grotesk font */
     color: #000000;
-    font-weight: 500; /* Use medium weight */
-    font-size: 2.7rem; /* Keep your existing font size */
+    font-weight: 300; /* Use medium weight */
+    font-size: 2.3rem; /* Keep your existing font size */
     line-height: 50px; /* Keep your existing line height */
     text-align: left; /* Center the text */
     margin-bottom: 15px;
@@ -96,8 +96,8 @@ h2 {
 h5 {
     font-family: 'Open Sans', sans-serif; /* Use Space Grotesk font */
     color: #000000;
-    font-weight: 1000; /* Use medium weight */
-    font-size: 2.7rem; /* Keep your existing font size */
+    font-weight: 550; /* Use medium weight */
+    font-size: 3rem; /* Keep your existing font size */
     line-height: 50px; /* Keep your existing line height */
     text-align: left; /* Center the text */
     margin-bottom: 15px;
