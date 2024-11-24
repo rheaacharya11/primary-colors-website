@@ -104,6 +104,7 @@ h4 {
 
 .menu-toggle {
     font-size: 2rem;
+    display: none;
     background: none;
     border: none;
     color: #000; /* Ensure the button text or icon is visible */
