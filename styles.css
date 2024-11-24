@@ -28,10 +28,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Open-Sans';
+    src: url('open-sans/OpenSans-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
 
 @font-face {
     font-family: 'Open-Sans';
-    src: url('open-sans/OpenSans-SemiBoldItalic.ttf') format('truetype');
+    src: url('open-sans/OpenSans-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
@@ -39,7 +46,7 @@
 
 @font-face {
     font-family: 'Open-Sans';
-    src: url('open-sans/OpenSans-Bold.ttf') format('truetype');
+    src: url('open-sans/OpenSans-SemiBold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -122,18 +129,20 @@ h5 {
     font-family: 'Open-Sans', sans-serif; /* Use Space Grotesk font */
     color: #000000;
     font-weight: bold; /* Use medium weight */
-    font-size: 2.8rem; /* Keep your existing font size */
-    line-height: 75px; /* Keep your existing line height */
+    font-size: 3.5rem; /* Keep your existing font size */
+    line-height: 40px; /* Keep your existing line height */
     text-align: left; /* Center the text */
     margin-bottom: 15px;
 }
+
+
 
 h6 {
     font-family: 'Open-Sans', sans-serif; /* Use Space Grotesk font */
     color: #000000;
     font-weight: bold; /* Use medium weight */
     font-size: 2.3rem; /* Keep your existing font size */
-    line-height:60px; /* Keep your existing line height */
+    line-height:40px; /* Keep your existing line height */
     text-align: left; /* Center the text */
     margin-bottom: 15px;
 }
