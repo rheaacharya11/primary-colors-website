@@ -519,7 +519,7 @@ body {
     display: block; /* Ensure visibility initially */
     padding: 20px;
     margin: 20px 0; /* Add space between cards */
-    border: 1px solid #ddd; /* Subtle border */
+    border: 2px solid #ddd; /* Subtle border */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
     background-color: #ffffff; /* White background */
@@ -572,21 +572,22 @@ body {
 }
 
 .filters input[type="checkbox"] {
-    margin-right: 10px; /* Space between checkbox and label */
-    width: 1.2em;
-    height: 1.2em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    appearance: none; /* Remove default checkbox styles */
+    -webkit-appearance: none; /* For Safari */
+    width: 16px; /* Define the size */
+    height: 16px;
+    border: 2px solid #000; /* Black outline */
+    border-radius: 0; /* No rounded corners */
     cursor: pointer;
-    transition: background-color 0.2s ease, border-color 0.2s ease;
+    margin-right: 10px; /* Space between checkbox and label text */
 }
 
 .filters input[type="checkbox"]:checked {
-    background-color: #f5598a; /* Highlight for checked state */
-    border-color: #f5598a;
+    
+    border-color: #000; /* Keep the outline black */
 }
 
 .filters input[type="checkbox"]:hover {
-    border-color: #f5598a; /* Border color on hover */
+    border-color: #555; /* Slightly lighter border on hover */
 }
 
