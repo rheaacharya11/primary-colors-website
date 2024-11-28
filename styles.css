@@ -125,15 +125,6 @@ h2 {
 }
 
 
-h5 {
-    font-family: 'Open-Sans', sans-serif; /* Use Space Grotesk font */
-    color: #000000;
-    font-weight: bold; /* Use medium weight */
-    font-size: 3.5rem; /* Keep your existing font size */
-    line-height: 40px; /* Keep your existing line height */
-    text-align: left; /* Center the text */
-    margin-bottom: 15px;
-}
 
 
 
@@ -141,7 +132,7 @@ h6 {
     font-family: 'Open-Sans', sans-serif; /* Use Space Grotesk font */
     color: #000000;
     font-weight: bold; /* Use medium weight */
-    font-size: 2.8rem; /* Keep your existing font size */
+    font-size: 2.9rem; /* Keep your existing font size */
     line-height:40px; /* Keep your existing line height */
     text-align: left; /* Center the text */
     margin-bottom: 15px;
@@ -149,10 +140,10 @@ h6 {
 
 /* h3 Styles */
 h3 {
-    font-family: 'Pixel Operator Light', sans-serif; /* Use Pixel Operator font */
+    font-family: 'Open-Sans', sans-serif; /* Use Pixel Operator font */
     color: #000000;
-    font-weight: 200;
-    font-size: 1.9rem;
+    font-weight: bold;
+    font-size: 2rem;
     line-height: 30px;
     text-align: center; /* Center the text */
     margin: 5px 0;
