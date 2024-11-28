@@ -145,7 +145,7 @@ h3 {
     font-weight: bold;
     font-size: 2rem;
     line-height: 30px;
-    text-align: center; /* Center the text */
+    text-align: left; /* Center the text */
     margin: 5px 0;
 }
 
@@ -477,6 +477,18 @@ body {
     p {
         font-size: 1rem;
     }
+    .filters {
+        justify-content: center; /* Center filters on smaller screens */
+    }
+
+    .card {
+        padding: 15px; /* Reduce padding for smaller screens */
+        margin: 10px 0; /* Less margin between cards */
+    }
+
+    .card p {
+        font-size: 0.9rem; /* Slightly smaller text */
+    }
 }
 
 @media (max-width: 480px) {
@@ -502,3 +514,79 @@ body {
         
     }
 }
+
+.card {
+    display: block; /* Ensure visibility initially */
+    padding: 20px;
+    margin: 20px 0; /* Add space between cards */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+    background-color: #ffffff; /* White background */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card.hidden {
+    display: none !important; /* Hide cards when filtered */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
+}
+
+.card p {
+    font-size: 1rem; /* Standard text size */
+    line-height: 1.5; /* Improved readability */
+    color: #000000; /* Black text */
+}
+
+.card a {
+    color: #f5598a; /* Match link color */
+    text-decoration: none; /* No underline */
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.card a:hover {
+    color: #d45d7a; /* Darker pink on hover */
+}
+
+
+.filters {
+    margin: 20px 0; /* Space above and below the filters */
+    display: flex; /* Arrange filters horizontally */
+    flex-wrap: wrap; /* Wrap filters to the next row if needed */
+    gap: 15px; /* Space between filters */
+    justify-content: flex-start; /* Align filters to the left */
+    padding: 10px 0;
+}
+
+.filters label {
+    display: flex; /* Align checkbox and text */
+    align-items: center;
+    font-size: 1rem;
+    font-family: 'Open-Sans', sans-serif;
+    cursor: pointer; /* Pointer cursor for better UX */
+    color: #000; /* Text color for labels */
+}
+
+.filters input[type="checkbox"] {
+    margin-right: 10px; /* Space between checkbox and label */
+    width: 1.2em;
+    height: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.filters input[type="checkbox"]:checked {
+    background-color: #f5598a; /* Highlight for checked state */
+    border-color: #f5598a;
+}
+
+.filters input[type="checkbox"]:hover {
+    border-color: #f5598a; /* Border color on hover */
+}
+
