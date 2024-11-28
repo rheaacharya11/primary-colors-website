@@ -516,24 +516,21 @@ body {
 }
 
 .card {
-    display: block; /* Ensure visibility initially */
+    display: block;
     padding: 20px;
-    margin: 20px 0; /* Add space between cards */
-    border: 2px solid #ddd; /* Subtle border */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
-    background-color: #ffffff; /* White background */
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin: 10px 0;
+    border: 1px solid #ddd; /* Subtle border for structure */
+    border-radius: 5px;
+    background-color: #fff; /* Flat white background */
 }
 
+.card:hover {
+    border-color: #aaa; /* Slight change on hover for feedback */
+}
 .card.hidden {
     display: none !important; /* Hide cards when filtered */
 }
 
-.card:hover {
-    transform: translateY(-5px); /* Slight lift on hover */
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* More pronounced shadow */
-}
 
 .card p {
     font-size: 1rem; /* Standard text size */
@@ -566,7 +563,7 @@ body {
     display: flex; /* Align checkbox and text */
     align-items: center;
     font-size: 1rem;
-    font-family: 'Open-Sans', sans-serif;
+    font-family: 'Pixel Operator Light', sans-serif;
     cursor: pointer; /* Pointer cursor for better UX */
     color: #000; /* Text color for labels */
 }
