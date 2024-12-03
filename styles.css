@@ -140,13 +140,22 @@ h6 {
 
 /* h3 Styles */
 h3 {
-    font-family: 'Pixel Operator', sans-serif; /* Use Pixel Operator font */
+    font-family: 'Open-Sans', sans-serif; /* Use Pixel Operator font */
     color: #000000;
     font-weight: bold;
     font-size: 2rem;
     font-style: italic;
     line-height: 30px;
     text-align: left; /* Center the text */
+    margin: 5px 0;
+}
+h7 {
+    font-family: 'Pixel Operator', sans-serif; /* Use Pixel Operator font */
+    color: #000000a1;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 30px;
+    text-align: center; /* Center the text */
     margin: 5px 0;
 }
 
