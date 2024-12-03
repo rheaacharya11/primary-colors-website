@@ -159,6 +159,15 @@ h7 {
     margin: 5px 0;
 }
 
+h8 {
+    font-family: 'Pixel Operator', sans-serif; /* Use Pixel Operator font */
+    color: #f5598a;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 30px;
+    text-align: center; /* Center the text */
+    margin: 5px 0;
+}
 h4 {
     font-family: 'Pixel Operator', sans-serif; /* Use Pixel Operator font */
     color: #000000;
